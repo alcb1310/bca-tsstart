@@ -1,0 +1,47 @@
+name: Issue Template
+description: Create a new issue.
+title: "[Issue]: "
+labels: ["feature"]
+projects: ["alcb1310/9" ]
+assignees:
+  - alcb1310
+body:
+  - type: dropdown
+    id: type
+    attributes:
+      label: What are you creating
+      multiple: false
+      options:
+        - Epic
+        - User Story
+        - Task
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Please describe the story
+      placeholder: Describe your story
+    validations:
+      required: true
+  - type: textarea
+    id: constraints
+    attributes:
+      label: Please add any constraints for the task
+      placeholder: Add your constraints
+    validations:
+      required: false
+  - type: textarea
+    id: acceptance
+    attributes:
+      label: Please add the acceptance criteria
+      placeholder: In order to this task be consider completed it should ....
+    validations:
+      required: false
+  - type: input
+    id: parent
+    attributes:
+      label: Parent Issue
+      placeholder: ex. \#1
+    validations:
+      required: false
