@@ -1,5 +1,16 @@
 Welcome to your new TanStack app! 
 
+# Deployment Status
+
+![Netlify](https://img.shields.io/badge/netlify-%23000000.svg?style=for-the-badge&logo=netlify&logoColor=#00C7B7)
+[![Netlify Status](https://api.netlify.com/api/v1/badges/6b8d8413-3be9-400e-a7e4-f5b1400f80e4/deploy-status)](https://app.netlify.com/sites/bca-tsstart/deploys)
+
+# Technologies
+
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Vite](https://img.shields.io/badge/vite-%23646CFF.svg?style=for-the-badge&logo=vite&logoColor=white)
+![TypeScript](https://img.shields.io/badge/typescript-%23007ACC.svg?style=for-the-badge&logo=typescript&logoColor=white)
+
 # Getting Started
 
 To run this application:
@@ -19,7 +30,7 @@ pnpm build
 
 ## Testing
 
-This project uses [Vitest](https://vitest.dev/) for testing. You can run the tests with:
+This project uses [![Vitest](https://img.shields.io/badge/-Vitest-252529?style=for-the-badge&logo=vitest&logoColor=FCC72B)](https://vitest.dev/) and ![Testing-Library](https://img.shields.io/badge/-TestingLibrary-%23E33332?style=for-the-badge&logo=testing-library&logoColor=white) for testing. You can run the tests with:
 
 ```bash
 pnpm test
@@ -27,11 +38,10 @@ pnpm test
 
 ## Styling
 
-This project uses [Tailwind CSS](https://tailwindcss.com/) for styling.
-
+This project uses [![TailwindCSS](https://img.shields.io/badge/tailwindcss-%2338B2AC.svg?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/) for styling.
 
 ## Linting & Formatting
-This project uses [Biome](https://biomejs.dev/) for linting and formatting. The following scripts are available:
+This project uses [![Biome](https://img.shields.io/badge/biome-60a5fa?style=for-the-badge&logo=biome&logoColor=white)](https://biomejs.dev/) for linting and formatting. The following scripts are available:
 
 ```bash
 pnpm lint
@@ -39,11 +49,9 @@ pnpm format
 pnpm check
 ```
 
-
-
 ## Shadcn
 
-Add components using the latest version of [Shadcn](https://ui.shadcn.com/).
+Add components using the latest version of [![shadcnUI](https://readmebadge.vercel.app/badges/shadcn.svg)](https://ui.shadcn.com/).
 
 ```bash
 pnpx shadcn@latest add button
@@ -149,6 +157,8 @@ Loaders simplify your data fetching logic dramatically. Check out more informati
 ### React-Query
 
 React-Query is an excellent addition or alternative to route loading and integrating it into you application is a breeze.
+
+![React Query](https://img.shields.io/badge/-React%20Query-FF4154?style=for-the-badge&logo=react%20query&logoColor=white)
 
 First add your dependencies:
 
@@ -307,3 +317,13 @@ Files prefixed with `demo` can be safely deleted. They are there to provide a st
 # Learn More
 
 You can learn more about all of the offerings from TanStack in the [TanStack documentation](https://tanstack.com).
+
+# Built on
+
+![Arch](https://img.shields.io/badge/Arch%20Linux-1793D1?logo=arch-linux&logoColor=fff&style=for-the-badge)
+![Neovim](https://img.shields.io/badge/NeoVim-%2357A143.svg?&style=for-the-badge&logo=neovim&logoColor=white)
+![PNPM](https://img.shields.io/badge/pnpm-%234a4a4a.svg?style=for-the-badge&logo=pnpm&logoColor=f69220)
+
+![Git](https://img.shields.io/badge/git-%23F05033.svg?style=for-the-badge&logo=git&logoColor=white)
+![GitHub](https://img.shields.io/badge/github-%23121011.svg?style=for-the-badge&logo=github&logoColor=white)
+![GitHub Actions](https://img.shields.io/badge/github%20actions-%232671E5.svg?style=for-the-badge&logo=githubactions&logoColor=white)
