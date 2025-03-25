@@ -12,14 +12,14 @@
 
 import { Route as rootRoute } from './routes/__root'
 import { Route as IndexImport } from './routes/index'
-import { Route as DemoTanstackQueryImport } from './routes/demo.tanstack-query'
-import { Route as DemoTableImport } from './routes/demo.table'
-import { Route as DemoStoreImport } from './routes/demo.store'
-import { Route as DemoStartServerFuncsImport } from './routes/demo.start.server-funcs'
-import { Route as DemoStartApiRequestImport } from './routes/demo.start.api-request'
-import { Route as DemoSentryTestingImport } from './routes/demo.sentry.testing'
-import { Route as DemoFormSimpleImport } from './routes/demo.form.simple'
-import { Route as DemoFormAddressImport } from './routes/demo.form.address'
+import { Route as DemoTanstackQueryImport } from './routes/demo/tanstack-query'
+import { Route as DemoTableImport } from './routes/demo/table'
+import { Route as DemoStoreImport } from './routes/demo/store'
+import { Route as DemoStartServerFuncsImport } from './routes/demo/start.server-funcs'
+import { Route as DemoStartApiRequestImport } from './routes/demo/start.api-request'
+import { Route as DemoSentryTestingImport } from './routes/demo/sentry.testing'
+import { Route as DemoFormSimpleImport } from './routes/demo/form.simple'
+import { Route as DemoFormAddressImport } from './routes/demo/form.address'
 
 // Create/Update Routes
 
@@ -272,28 +272,28 @@ export const routeTree = rootRoute
       "filePath": "index.tsx"
     },
     "/demo/store": {
-      "filePath": "demo.store.tsx"
+      "filePath": "demo/store.tsx"
     },
     "/demo/table": {
-      "filePath": "demo.table.tsx"
+      "filePath": "demo/table.tsx"
     },
     "/demo/tanstack-query": {
-      "filePath": "demo.tanstack-query.tsx"
+      "filePath": "demo/tanstack-query.tsx"
     },
     "/demo/form/address": {
-      "filePath": "demo.form.address.tsx"
+      "filePath": "demo/form.address.tsx"
     },
     "/demo/form/simple": {
-      "filePath": "demo.form.simple.tsx"
+      "filePath": "demo/form.simple.tsx"
     },
     "/demo/sentry/testing": {
-      "filePath": "demo.sentry.testing.tsx"
+      "filePath": "demo/sentry.testing.tsx"
     },
     "/demo/start/api-request": {
-      "filePath": "demo.start.api-request.tsx"
+      "filePath": "demo/start.api-request.tsx"
     },
     "/demo/start/server-funcs": {
-      "filePath": "demo.start.server-funcs.tsx"
+      "filePath": "demo/start.server-funcs.tsx"
     }
   }
 }
