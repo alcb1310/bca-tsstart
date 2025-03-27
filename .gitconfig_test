@@ -1,0 +1,27 @@
+/home/andres/.gitconfig
+[init]
+    defaultBranch = master
+[user]
+    name = Andres Court
+    email = andres@andrescourt.com
+[credential "https://github.com"]
+    helper = 
+    helper = !/usr/bin/gh auth git-credential
+[credential "https://gist.github.com"]
+    helper = 
+    helper = !/usr/bin/gh auth git-credential
+[pull]
+    rebase = false
+[alias]
+    l = log --oneline
+    l1 = log --oneline -n 10
+    l2 = log --oneline -n 20
+    l3 = log --oneline -n 20
+    st = status
+    c = commit -v
+[push]
+    autoSetupRemote = true
+    default = current
+[core]
+   editor = vim
+;   editor = code --wait
