@@ -33,7 +33,7 @@ function ErrorMessages({
 			{errors.map((error) => (
 				<div
 					key={typeof error === "string" ? error : error.message}
-					className="text-red-500 mt-1 font-bold"
+					className="text-destructive mt-1 font-bold"
 				>
 					{typeof error === "string" ? error : error.message}
 				</div>
@@ -54,7 +54,7 @@ export function TextField({
 
 	return (
 		<div>
-			<Label htmlFor={label} className="mb-2 text-xl font-bold">
+			<Label htmlFor={label} className="mb-2  font-bold">
 				{label}
 			</Label>
 			<Input
@@ -80,7 +80,7 @@ export function PasswordField({
 
 	return (
 		<div>
-			<Label htmlFor={label} className="mb-2 text-xl font-bold">
+			<Label htmlFor={label} className="mb-2 font-bold">
 				{label}
 			</Label>
 			<Input
